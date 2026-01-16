@@ -1,4 +1,4 @@
-package com.thom.starter;
+package com.thom.rtstockpriceaggregator;
 
 import org.junit.jupiter.api.Test;
 
