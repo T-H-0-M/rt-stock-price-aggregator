@@ -44,6 +44,15 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven.surefire.plugin.version}</version>
       </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.0</version>
+        <configuration>
+          <mainClass>com.thom.rtstockpriceaggregator.App</mainClass>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
